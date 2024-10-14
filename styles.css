@@ -1,0 +1,52 @@
+body {
+   margin: 0;
+   padding: 0;
+   background-color: white;
+   font-family: 'Lato', Arial, sans-serif;
+}
+
+.container {
+   position: relative;
+   width: 100%;
+   max-width: 800px;
+   margin: 0 auto;
+   padding-top: 20px;
+}
+
+.image-container {
+   position: relative;
+}
+
+#fysio_bg {
+   background-image:
+           /*linear-gradient(to bottom, rgba(245, 246, 252, 0.0), rgb(255, 255, 255)),*/
+           url('aartsen-fysio.jpeg');
+   width: 100%;
+   height: 385px;
+   background-size: cover;
+   background-position: center; /* Center the background image */
+   color: white;
+   padding: 20px;
+}
+
+.text-overlay {
+   position: static; /* Remove absolute positioning */
+   z-index: 1;
+   display: flex;
+   flex-direction: column; /* Align children in a column */
+   justify-content: flex-end; /* Align items to the bottom */
+   align-items: flex-start; /* Align items to the start (left) */
+   text-align: left; /* Align text to the left */
+   padding: 10px;
+   box-sizing: border-box;
+   color: black; /* Change text color to black */
+}
+
+.text {
+   color: black;
+   padding: 1em;
+   line-height: 1.5; /* Adjust the line height as needed */
+
+}
+
+
